@@ -12,6 +12,7 @@ import ListItemText from "@mui/material/ListItemText";
 import Drawer from "@mui/material/Drawer";
 import ReceiptLongIcon from "@mui/icons-material/ReceiptLong";
 import RateReviewIcon from "@mui/icons-material/RateReview";
+import PaymentsIcon from "@mui/icons-material/Payments";
 import SettingsIcon from "@mui/icons-material/Settings";
 import LogoutIcon from "@mui/icons-material/Logout";
 
@@ -23,6 +24,7 @@ const SIDEBAR_WIDTH = 220;
 
 const NAV_ITEMS = [
     { label: "Orders", to: "/dashboard/orders", icon: <ReceiptLongIcon /> },
+    { label: "Payments", to: "/dashboard/payments", icon: <PaymentsIcon /> },
     { label: "Reviews", to: "/dashboard/reviews", icon: <RateReviewIcon /> },
     { label: "Settings", to: "/dashboard/settings", icon: <SettingsIcon /> }
 ];
