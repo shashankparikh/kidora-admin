@@ -5,6 +5,7 @@ import Login from "../screens/Login/Login";
 import DashboardLayout from "../screens/Dashboard/DashboardLayout";
 import Orders from "../screens/Dashboard/Orders/Orders";
 import Reviews from "../screens/Dashboard/Reviews/Reviews";
+import Settings from "../screens/Dashboard/Settings/Settings";
 
 function AppNavigator() {
     return (
@@ -23,6 +24,7 @@ function AppNavigator() {
                     <Route index element={<Navigate to="orders" replace />} />
                     <Route path="orders" element={<Orders />} />
                     <Route path="reviews" element={<Reviews />} />
+                    <Route path="settings" element={<Settings />} />
                 </Route>
 
                 <Route path="*" element={<Navigate to="/dashboard" replace />} />
